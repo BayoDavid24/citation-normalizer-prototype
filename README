@@ -1,0 +1,32 @@
+# Citation Export Normalizer Prototype
+
+This prototype demonstrates the core backend pipeline for
+cleaning citation exports from Scopus / Web of Science.
+
+Pipeline:
+
+RIS Export
+↓
+Parser
+↓
+Structured JSON
+↓
+Deduplication (DOI + title similarity)
+↓
+Metadata enrichment (CrossRef API)
+↓
+Normalized citation dataset
+
+Features demonstrated:
+
+✔ RIS parsing
+✔ DOI-based deduplication
+✔ Title similarity matching
+✔ CrossRef metadata enrichment
+✔ Error handling for API failures
+
+Example Output
+
+Input records: 1
+After dedupe: 1
+Normalized dataset saved.

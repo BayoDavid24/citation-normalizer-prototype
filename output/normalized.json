@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Deep Residual Learning for Image Recognition",
+    "authors": [
+      "He, Kaiming",
+      "Zhang, Xiangyu",
+      "Ren, Shaoqing",
+      "Sun, Jian"
+    ],
+    "year": 2016,
+    "journal": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+    "doi": "10.1109/CVPR.2016.90",
+    "abstract": null,
+    "publisher": "IEEE"
+  }
+]
